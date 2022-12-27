@@ -17,6 +17,11 @@ namespace Practice_Problems
             display.DisplayName("Jyoti ", "Rao");
             display.DisplayName("Hello ", "Jyoti ", "Rao");
             display.DisplayName(25, 100);
+            Employee2 emp = new Employee2();
+            int Salary = emp.salary;
+            int Bonus = emp.bonus;
+            Console.WriteLine("Salary of employee: " + Salary);
+            Console.WriteLine("Bonus of employee2: " + Bonus);
         }
     }
 }
