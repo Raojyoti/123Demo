@@ -30,6 +30,8 @@ namespace Practice_Problems
             obj1.Area_Square(5);
             obj1.Area_Circle(4);
             obj1.Area_rectangle(4, 5);
+            Console.WriteLine("-------------------------------------------------------");
+            Addition.Add(25, 30);
         }
     }
 }
