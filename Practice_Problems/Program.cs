@@ -13,6 +13,10 @@ namespace Practice_Problems
             obj.Multiplication();
             VotingAge voting1 = new VotingAge();//dafault constructor called
             VotingAge voting = new VotingAge(18);//parameterized constructor called
+            Display display = new Display();
+            display.DisplayName("Jyoti ", "Rao");
+            display.DisplayName("Hello ", "Jyoti ", "Rao");
+            display.DisplayName(25, 100);
         }
     }
 }
